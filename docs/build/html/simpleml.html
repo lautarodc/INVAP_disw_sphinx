@@ -1,0 +1,515 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>simpleml package &mdash; simpleml 0.0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="simpleml.utils package" href="simpleml.utils.html" />
+    <link rel="prev" title="simpleml" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> simpleml
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">simpleml</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">simpleml package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#subpackages">Subpackages</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="simpleml.utils.html">simpleml.utils package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-simpleml.kmeans">simpleml.kmeans module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-simpleml.linear_regression">simpleml.linear_regression module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-simpleml">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">simpleml</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="modules.html">simpleml</a> &raquo;</li>
+        
+      <li>simpleml package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/simpleml.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="simpleml-package">
+<h1>simpleml package<a class="headerlink" href="#simpleml-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="simpleml.utils.html">simpleml.utils package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="simpleml.utils.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="simpleml.utils.html#module-simpleml.utils.metrics">simpleml.utils.metrics module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="simpleml.utils.html#module-simpleml.utils">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-simpleml.kmeans">
+<span id="simpleml-kmeans-module"></span><h2>simpleml.kmeans module<a class="headerlink" href="#module-simpleml.kmeans" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="simpleml.kmeans.KMeans">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">simpleml.kmeans.</span></span><span class="sig-name descname"><span class="pre">KMeans</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">n_clusters</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">iterations</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">1000</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simpleml.kmeans.KMeans" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class for the NumPy simplified implementation of K-means.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>n_clusters</strong> (<em>int</em>) – Number of clusters used to segment the data.</p></li>
+<li><p><strong>iterations</strong> (<em>int</em><em>, </em><em>optional</em>) – Maximum number of iterations for the model.</p></li>
+<li><p><strong>data</strong> (<em>np.ndarray</em>) – Input data to cluster.</p></li>
+<li><p><strong>centroids</strong> (<em>np.ndarray</em>) – Final centroids locations</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="simpleml.kmeans.KMeans.fit">
+<span class="sig-name descname"><span class="pre">fit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">numpy.ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">,</span> </span><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#simpleml.kmeans.KMeans.fit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the locations of the centroids and the cluster identity of each point
+of the input data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<em>np.ndarray</em>) – Input data to cluster</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>location of the centroids and the cluster ids.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>tuple with the centroids (NumPy array) and cluster ids (NumPy array)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="simpleml.kmeans.KMeans.k_means_loop">
+<span class="sig-name descname"><span class="pre">k_means_loop</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">numpy.ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">centroids</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">numpy.ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span></span></span><a class="headerlink" href="#simpleml.kmeans.KMeans.k_means_loop" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data</strong> (<em>np.ndarray</em>) – Input data to cluster</p></li>
+<li><p><strong>centroids</strong> (<em>np.ndarray</em>) – Current centroids locations</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>cluster id for each point</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>np.ndarray</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="simpleml.kmeans.KMeans.predict">
+<span class="sig-name descname"><span class="pre">predict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">numpy.ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span></span></span><a class="headerlink" href="#simpleml.kmeans.KMeans.predict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the cluster identity of each of the points from the input data, using
+the centroids previously obtained by fitting the training data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<em>np.ndarray</em>) – Input data to cluster</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Cluster identity of each point of the input data.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>np.ndarray</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-simpleml.linear_regression">
+<span id="simpleml-linear-regression-module"></span><h2>simpleml.linear_regression module<a class="headerlink" href="#module-simpleml.linear_regression" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="simpleml.linear_regression.BaseModel">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">simpleml.linear_regression.</span></span><span class="sig-name descname"><span class="pre">BaseModel</span></span><a class="headerlink" href="#simpleml.linear_regression.BaseModel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></p>
+<p>Abstract Model Class used as interface of all regression models.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>model</strong> (<em>np.ndarray</em>) – Stored model data (NumPy array in most cases)</p></li>
+<li><p><strong>data</strong> (<em>np.ndarray</em>) – input data for training or testing</p></li>
+<li><p><strong>labels</strong> (<em>np.ndarray</em>) – labels of the input data for training</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="simpleml.linear_regression.BaseModel.fit">
+<span class="sig-name descname"><span class="pre">fit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">numpy.ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">labels</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">numpy.ndarray</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simpleml.linear_regression.BaseModel.fit" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data</strong> (<em>np.ndarray</em>) – input data for training</p></li>
+<li><p><strong>labels</strong> (<em>np.ndarray</em>) – labels of the input data for training</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="simpleml.linear_regression.BaseModel.predict">
+<span class="sig-name descname"><span class="pre">predict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">numpy.ndarray</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simpleml.linear_regression.BaseModel.predict" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<em>np.ndarray</em>) – input data for testing</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>predicted data</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>np.ndarray</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="simpleml.linear_regression.ConstantModel">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">simpleml.linear_regression.</span></span><span class="sig-name descname"><span class="pre">ConstantModel</span></span><a class="headerlink" href="#simpleml.linear_regression.ConstantModel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#simpleml.linear_regression.BaseModel" title="simpleml.linear_regression.BaseModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">simpleml.linear_regression.BaseModel</span></code></a></p>
+<p>Constant model class that uses the average of each feature as prediction.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>model</strong> (<em>np.ndarray</em>) – Stored model data (NumPy array in most cases)</p></li>
+<li><p><strong>data</strong> (<em>np.ndarray</em>) – input data for training or testing</p></li>
+<li><p><strong>labels</strong> (<em>np.ndarray</em>) – labels of the input data for training</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="simpleml.linear_regression.ConstantModel.fit">
+<span class="sig-name descname"><span class="pre">fit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">numpy.ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">labels</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">numpy.ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#simpleml.linear_regression.ConstantModel.fit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method for fitting the training data and determining and storing the model parameters. In this case
+the model returns always the data average.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data</strong> (<em>np.ndarray</em>) – input data for training</p></li>
+<li><p><strong>labels</strong> (<em>np.ndarray</em>) – labels of the input data for training</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="simpleml.linear_regression.ConstantModel.predict">
+<span class="sig-name descname"><span class="pre">predict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">numpy.ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span></span></span><a class="headerlink" href="#simpleml.linear_regression.ConstantModel.predict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given the input data it returns the predicted output for each input point using the model, in this case
+the average.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<em>np.ndarray</em>) – input data for testing</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>predicted data</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>np.ndarray</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="simpleml.linear_regression.LinearRegression">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">simpleml.linear_regression.</span></span><span class="sig-name descname"><span class="pre">LinearRegression</span></span><a class="headerlink" href="#simpleml.linear_regression.LinearRegression" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#simpleml.linear_regression.BaseModel" title="simpleml.linear_regression.BaseModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">simpleml.linear_regression.BaseModel</span></code></a></p>
+<p>Linear regression model class that uses the following model for predictions:
+.. math:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">y</span> <span class="o">=</span> \<span class="n">omega</span><span class="o">*</span><span class="n">X</span>
+</pre></div>
+</div>
+<dl class="py method">
+<dt class="sig sig-object py" id="simpleml.linear_regression.LinearRegression.fit">
+<span class="sig-name descname"><span class="pre">fit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">numpy.ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">labels</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">numpy.ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#simpleml.linear_regression.LinearRegression.fit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method for fitting the training data and determining and storing the model parameters <span class="math notranslate nohighlight">\(\omega\)</span>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data</strong> (<em>np.ndarray</em>) – input data for training</p></li>
+<li><p><strong>labels</strong> (<em>np.ndarray</em>) – labels of the input data for training</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="simpleml.linear_regression.LinearRegression.predict">
+<span class="sig-name descname"><span class="pre">predict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">numpy.ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span></span></span><a class="headerlink" href="#simpleml.linear_regression.LinearRegression.predict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given the input data it returns the predicted output for each input point using the model, in this case:</p>
+<div class="math notranslate nohighlight">
+\[y = \omega*X\]</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<em>np.ndarray</em>) – input data for testing</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>predicted data</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>np.ndarray</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="simpleml.linear_regression.LinearRegressionWithB">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">simpleml.linear_regression.</span></span><span class="sig-name descname"><span class="pre">LinearRegressionWithB</span></span><a class="headerlink" href="#simpleml.linear_regression.LinearRegressionWithB" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#simpleml.linear_regression.BaseModel" title="simpleml.linear_regression.BaseModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">simpleml.linear_regression.BaseModel</span></code></a></p>
+<p>Affine regression model class that uses the following model for predictions:</p>
+<div class="math notranslate nohighlight">
+\[y = \omega*X + b\]</div>
+<dl class="py method">
+<dt class="sig sig-object py" id="simpleml.linear_regression.LinearRegressionWithB.fit">
+<span class="sig-name descname"><span class="pre">fit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">numpy.ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">labels</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">numpy.ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#simpleml.linear_regression.LinearRegressionWithB.fit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method for fitting the training data and determining and storing the model parameters <span class="math notranslate nohighlight">\(\omega\)</span> and b.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data</strong> (<em>np.ndarray</em>) – input data for training</p></li>
+<li><p><strong>labels</strong> (<em>np.ndarray</em>) – labels of the input data for training</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="simpleml.linear_regression.LinearRegressionWithB.predict">
+<span class="sig-name descname"><span class="pre">predict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">numpy.ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span></span></span><a class="headerlink" href="#simpleml.linear_regression.LinearRegressionWithB.predict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given the input data it returns the predicted output for each input point using the model, in this case:</p>
+<div class="math notranslate nohighlight">
+\[y = \omega*X + b\]</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<em>np.ndarray</em>) – input data for testing</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>predicted data</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>np.ndarray</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-simpleml">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-simpleml" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="simpleml.utils.html" class="btn btn-neutral float-right" title="simpleml.utils package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="modules.html" class="btn btn-neutral float-left" title="simpleml" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Lautaro Delgado.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
